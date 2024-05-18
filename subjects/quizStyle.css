@@ -25,7 +25,7 @@ body {
   border-radius: 5px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #DF2771; 
+  background: #1E90FF;
 }
 
 /*NAVIGATION BAR*/
@@ -83,7 +83,7 @@ body {
 .nav button
 {
 	padding: 9px 25px;
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to right, #FA4B37, #1E90FF);
 	color: #fff;
 	border: none;
 	border-radius: 5px;
@@ -163,7 +163,7 @@ body {
 	border: none;
 	border-radius: 5px;
 	color: #fff;
-	background: #DF2771;
+	background: #1E90FF;
 	outline: none;
 	cursor: pointer;
 	box-shadow: 0 0 50px rgba(0,0,0,0.5);

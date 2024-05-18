@@ -24,7 +24,7 @@ body {
   border-radius: 5px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #DF2771; 
+  background: #1E90FF;
 }
 
 /*NAVIGATION BAR*/
@@ -82,7 +82,7 @@ body {
 .nav button
 {
 	padding: 9px 25px;
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to right, #FA4B37, #1E90FF);
 	color: #fff;
 	border: none;
 	border-radius: 5px;
@@ -182,7 +182,7 @@ body {
 }
 
 .cbox .det a:hover{
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to right, #FA4B37, #1E90FF);
 	color: white;
 }
 
@@ -212,7 +212,7 @@ body {
 	margin: 10px;
 	width: 300px;
 	height: 200px;
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to right, #FA4B37, #1E90FF);
 	border-radius: 10px;
 	box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
@@ -279,7 +279,7 @@ body {
 	margin: 20px;
 	width: 300px;
 	height: 160px;
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to right, #FA4B37, #1E90FF);
 	border-radius: 10px;
 }
 .dcard2:hover .fpart2 img {
@@ -317,13 +317,13 @@ body {
 	display: flex;
 }
 .click-me a {
-	color: #DF2771;
+	color: #1E90FF;
 	text-decoration: none;
 	transition-duration: .5s;
 	padding: 10px;
 }
 .click-me a:hover {
-	background: #DF2771;
+	background: #1E90FF;
 	color: #fff;
 }
 
@@ -372,13 +372,13 @@ body {
 }
 .download a{
 	padding: 5px 10px;
-	color: #DF2771;
+	color: #1E90FF;
 	font-size: .8em;
 	visibility: hidden;
 }
 .download:hover a{
 	transition: .5s ease;
-	background: #DF2771;
+	background: #1E90FF;
 	color: #fff;
 }
 
@@ -453,7 +453,7 @@ footer .right-col h1{
 footer .border{
 	width: 100px;
 	height: 4px;
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to right, #FA4B37, #1E90FF);
 	margin: 2px;
 }
 
@@ -485,7 +485,7 @@ footer .btn {
 	padding: 18px 40px;
 	font-size: 16px;
 	color: #f1f1f1;
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to right, #FA4B37, #1E90FF);
 	border: none;
 	font-weight: 700;
 	outline: none;
