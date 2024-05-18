@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-	<link rel="shortcut icon" type="png" href="images/icon/favicon.png">
-	<title>Login SignUp</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+	<link rel="shortcut icon" type="png" href="images/icon/favicon-16x16.png">
+	<title>Registro</title>
 	<link rel="stylesheet" type="text/css" href="loginStyle.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-  <!-- It will redirect to the Home Page after submitting the form -->
   <script>
   $(document).ready(function(){
     $("form").submit(function(){
-      alert("Great Job !");
+      alert("Bienvenido a EduPlaySV!");
     });
   });
   </script>
@@ -19,25 +21,25 @@
 		<div class="form-box">
 			<div class="button-box">
 				<div id="btn"></div>
-				<button type="button" class="toggle-btn" id="log" onclick="login()" style="color: #fff;">Log In</button>
-				<button type="button" class="toggle-btn" id="reg" onclick="register()">Register</button>
+				<button type="button" class="toggle-btn" id="log" onclick="login()" style="color: #fff;">Ingresar</button>
+				<button type="button" class="toggle-btn" id="reg" onclick="register()">Registrarse</button>
 			</div>
 			<div class="social-icons">
+				<img src="images/icon/tt2.png">
 				<img src="images/icon/fb2.png">
 				<img src="images/icon/insta2.png">
-				<img src="images/icon/tt2.png">
 			</div>
 			
 			<!-- Login Form -->
 			<form id="login" class="input-group" action="index.html">
 				<div class="inp">
-					<img src="images/icon/user.png"><input type="text" id="email" class="input-field" placeholder="Username or Phone Number" style="width: 88%; border:none;" required="required">
+					<img src="images/icon/user.png"><input type="text" id="email" class="input-field" placeholder="Usuario" style="width: 88%; border:none;" required="required">
 				</div>
 				<div class="inp">
-					<img src="images/icon/password.png"><input type="password" id="password" class="input-field" placeholder="Password" style="width: 88%; border: none;" required="required">
+					<img src="images/icon/password.png"><input type="password" id="password" class="input-field" placeholder="Contraseña" style="width: 88%; border: none;" required="required">
 				</div>
-				<input type="checkbox" class="check-box">Remember Password
-				<button type="submit" class="submit-btn">Log In</button>
+				<input type="checkbox" class="check-box">Recordar su contraseña
+				<button type="submit" class="submit-btn">Ingresar</button>
 			</form>
 
 
@@ -46,18 +48,18 @@
 					<h3>or</h3>
 				</div>
 				<button class="connect" onclick="google()">
-					<img src="images/icon/google.png"><span>Sign in with Google</span>
+					<img src="images/icon/google.png"><span>Ingresar con google</span>
 				</button>
 			</div>
 			
 			<!-- Registration Form -->
 			<form id="register" class="input-group">
-				<input type="text" class="input-field" placeholder="Full Name" required="required">
-				<input type="email" class="input-field" placeholder="Email Address" required="required">
-				<input type="password" class="input-field" placeholder="Create Password" name="psame" required="required">
-				<input type="password" class="input-field" placeholder="Confirm Password" name="psame" required="required">
-				<input type="checkbox" class="check-box" id="chkAgree" onclick="goFurther()">I agree to the Terms & Conditions
-				<button type="submit" id="btnSubmit" class="submit-btn reg-btn">Register</button>
+				<input type="text" class="input-field" placeholder="Nombre Completo" required="required">
+				<input type="email" class="input-field" placeholder="Direccion de correo" required="required">
+				<input type="password" class="input-field" placeholder="Contraseña" name="psame" required="required">
+				<input type="password" class="input-field" placeholder="Confirmar contraseña" name="psame" required="required">
+				<input type="checkbox" class="check-box" id="chkAgree" onclick="goFurther()">Acepto terminos y condiciones
+				<button type="submit" id="btnSubmit" class="submit-btn reg-btn">Registrarse</button>
 			</form>
 		</div>
 		<script type="text/javascript" src="script.js"></script>
