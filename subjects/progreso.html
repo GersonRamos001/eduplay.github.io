@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Usuario - Progreso en Juego Educativo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .profile-header {
+            display: flex;
+            align-items: center;
+        }
+        .profile-header img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+        }
+        .profile-header h1 {
+            margin: 0;
+        }
+        .stats {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .stats div {
+            background: #eee;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            width: 30%;
+        }
+        .progress {
+            margin-top: 20px;
+        }
+        .progress h2 {
+            margin: 0 0 10px 0;
+        }
+        .progress-bar {
+            background-color: #4caf50;
+            height: 24px;
+            border-radius: 12px;
+            overflow: hidden;
+            position: relative;
+        }
+        .progress-bar div {
+            background-color: #76c7c0;
+            height: 100%;
+            width: 70%; /* Cambia este valor para representar el progreso */
+            border-radius: 12px;
+            text-align: center;
+            color: white;
+            line-height: 24px;
+        }
+        .achievements {
+            margin-top: 20px;
+        }
+        .achievements h2 {
+            margin: 0 0 10px 0;
+        }
+        .achievements ul {
+            list-style: none;
+            padding: 0;
+        }
+        .achievements ul li {
+            background: #eee;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+        }
+        .recent-activities {
+            margin-top: 20px;
+        }
+        .recent-activities h2 {
+            margin: 0 0 10px 0;
+        }
+        .recent-activities ul {
+            list-style: none;
+            padding: 0;
+        }
+        .recent-activities ul li {
+            background: #eee;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+        }
+        .settings {
+            margin-top: 20px;
+        }
+        .settings h2 {
+            margin: 0 0 10px 0;
+        }
+        .settings form {
+            display: flex;
+            flex-direction: column;
+        }
+        .settings form label {
+            margin: 5px 0;
+        }
+        .settings form input,
+        .settings form select {
+            padding: 10px;
+            margin: 5px 0 20px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .settings form button {
+            padding: 10px;
+            background: #4caf50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .settings form button:hover {
+            background: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-header">
+            <img src="/images/extra/usuario.jpg" alt="Foto de perfil del usuario">
+            <div>
+                <h1>Bastian Schweinsteiger</h1>
+                <p>Nivel actual: 5</p>
+            </div>
+        </div>
+
+        <div class="stats">
+            <div>
+                <h3>Puntos</h3>
+                <p>1200</p>
+            </div>
+            <div>
+                <h3>Lecciones Completadas</h3>
+                <p>30</p>
+            </div>
+            <div>
+                <h3>Tiempo Jugado</h3>
+                <p>15h 45m</p>
+            </div>
+        </div>
+
+        <div class="progress">
+            <h2>Progreso del Juego</h2>
+            <div class="progress-bar">
+                <div style="width: 70%;">70%</div>
+            </div>
+        </div>
+
+        <div class="achievements">
+            <h2>Logros Desbloqueados</h2>
+            <ul>
+                <li>AlgoExpert</li>
+                <li>NetMaster</li>
+                <li>DBBoss</li>
+            </ul>
+        </div>
+
+        <div class="recent-activities">
+            <h2>Actividades Recientes</h2>
+            <ul>
+                <li>Se completo el curso de Java</li>
+                <li>Obtuvo el logro "AlgoExpert"</li>
+                <li>Subió de nivel al 5</li>
+            </ul>
+        </div>
+
+        <div class="settings">
+            <h2>Configuraciones del Perfil</h2>
+            <form>
+                <label for="username">Nombre de Usuario:</label>
+                <input type="text" id="username" name="" value="basti">
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" value="basntian@germany.com">
+
+                <label for="language">Idioma:</label>
+                <select id="language" name="language">
+                    <option value="es">Español</option>
+                    <option value="en">Inglés</option>
+                    <option value="fr">Francés</option>
+                </select>
+
+                <button type="submit">Guardar Cambios</button>
+            </form>
+        </div>
+        <br></br>
+        <button type="submit" href><a class="icon" href="../index.html">Volver a inicio</a></button>
+    </div>
+</body>
+</html>
