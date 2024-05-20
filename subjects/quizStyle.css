@@ -37,7 +37,7 @@ body {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	padding: 20px 2%;
+	padding: 0px 2%;
 	position: fixed;
 	top: 0px;
 	z-index: 10;
